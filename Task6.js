@@ -1,6 +1,6 @@
 let Booklist = {
     title: ['Game of Thrones', 'El principito'],
-    author: ['George R.R. Martin', 'Frances']
+    author: ['George R.R. Martin', 'Antoine de Saint']
     
 
 }
@@ -39,13 +39,13 @@ function searchByAuthor (author){
 }
 
 
-addBook('Tell of the fallen','Anonymos');
+addBook('Tell of the fallen','Anonymus');
 
 console.log(Booklist);
 
 listAllBooks();
 
-searchByAuthor ('Frances');
+searchByAuthor ('Antoine de Saint');
 
 let RemBook= 'El principito';
 removeBook(RemBook);
